@@ -14,11 +14,12 @@ tr:nth-child(even) {
     background-color: #dddddd;
 }
 
-body {background-color: black;
-color : black;
-background-image: url(fond.png);
-background-repeat:no-repeat;
-background-attachment : fixed;
+body {
+	background-color: black;
+	color : black;
+	background-image: url(fond.jpg);
+	background-repeat:no-repeat;
+	background-attachment : fixed;
 }
 
 #bouton{
@@ -36,10 +37,10 @@ background-attachment : fixed;
 
 .banniere{
 	position : absolute;
-  margin : auto;
-  right: 0;
-  left: 0;
-  top:2%;
+	margin : auto;
+	right: 0;
+	left: 0;
+	top:2%;
 	text-align : center;
 	width : 200px;	
 }
@@ -50,35 +51,31 @@ img {
 
 .cadreForm{
 	position : absolute;
-  margin: auto;
-  right: 0;
-  left: 0;
-  top:-20%;
-bottom:0;
-width : 35%;
-height : 30%;
-
-text-align : center;
+	margin: auto;
+	right: 0;
+	left: 0;
+	top:-20%;
+	bottom:0;
+	width : 35%;
+	height : 30%;
+	text-align : center;
 }
-
-
-
 
 fieldset{
 	background-color: white;
 	text-align : center;
 	border-style: solid;
-    border-width: 5px;
+	border-width: 5px;
 	color : black;
 	margin-bottom : 20px;
 	font:bold 1em Verdana;
 	width : 20em;
 	margin-top : 0.3em;
-  position: relative;
-  left: 50%;
-  width: 500px;
-  margin-left: -250px;
-	}
+	position: relative;
+	left: 50%;
+	width: 500px;
+	margin-left: -250px;
+}
 
 legend{
 	font:bold 20px Verdana;

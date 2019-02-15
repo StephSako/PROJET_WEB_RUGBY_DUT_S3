@@ -1,22 +1,23 @@
-body {background-color: #cdd8d9;
-color : black;
-background-image: url(fond.png);
-background-repeat:no-repeat;
+body {
+	background-color: #cdd8d9;
+	color : black;
+	background-image: url(fond.jpg);
+	background-repeat:no-repeat;
 }
 
 .banniere{
 	position : absolute;
-  margin : auto;
-  right: 0;
-  left: 0;
-  top:2%;
+	margin : auto;
+	right: 0;
+	left: 0;
+	top:2%;
 	text-align : center;
 	width : 200px;	
 }
+
 img {
     width: 100%; 
 }
-
 
 #bouton{
 	border-radius:12px 0 12px 0;
@@ -27,29 +28,31 @@ img {
 	width : 20em;
 	height : 3em;
 	margin-top : 2em;
-  position: relative;
-  top : 40%;
-  left: 50%;
-  width: 400px;
-  margin-left: -200px;
-	}
+	position: relative;
+	top : 40%;
+	left: 50%;
+	width: 400px;
+	margin-left: -200px;
+}
 	
-#bouton:hover{background-color: red;}
+#bouton:hover{
+	background-color: red;
+}
 
 .accueilConIscr{
 	position : absolute;
-  margin: auto;
-  right: 0;
-  left: 0;
-  top:1%;
-bottom:0;
-width : 30%;
-height : 30%;
+	margin: auto;
+	right: 0;
+	left: 0;
+	top:1%;
+	bottom:0;
+	width : 30%;
+	height : 30%;
 }
 
 
 #Titre{
-position: absolute;
+	position: absolute;
 	margin: auto;
 	right: 0;
 	left: 0;
@@ -59,7 +62,7 @@ position: absolute;
 	height: 10px;
 	color:white;
 	font:bold 35px tahoma;
-	}
+}
 
 
 .footer{
